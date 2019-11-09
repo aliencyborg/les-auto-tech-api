@@ -1,0 +1,43 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "comment",
+    "description": "A comment form submission"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "type": {
+      "enum": [
+        "complaint",
+        "problem",
+        "suggestion",
+        "praise"
+      ],
+      "type": "enumeration"
+    },
+    "about": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "fax": {
+      "type": "string"
+    },
+    "contactRequest": {
+      "type": "boolean"
+    }
+  }
+}
